@@ -10,6 +10,11 @@
 </p>
 
 ---
+### 🌟 Destaques
+
+- 🎓 **Certificação em IA:** [Hugging Face: Explorando e aplicando soluções e modelos de IA](https://cursos.alura.com.br/certificate/adrianolink/hugging-face-explorando-aplicando-solucoes-modelos-ia) - *Alura*
+---
+
 
 ### 🛠️ Minha Caixa de Ferramentas
 
