@@ -25,7 +25,8 @@
 ### 🎓 Certificados e Cursos
 
 - **[Certificados e Cursos](https://cursos.alura.com.br/user/adrianolink/fullCertificate/ad2167a8dad680a69c3eb7d26250f2f2)** - *Alura*
-- 
+  
+---
 
 ### 🚀 Meus Projetos em Destaque
 
