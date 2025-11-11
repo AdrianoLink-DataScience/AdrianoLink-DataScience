@@ -36,7 +36,7 @@
 
 ### 🚀 Meus Projetos em Destaque
 
-- 📊 **[Análise de Vendas de E-commerce](https://github.com/AdrianoLink-DataScience/SEU-REPOSITORIO-DE-VENDAS-AQUI)**: Uma análise que revelou os principais produtos responsáveis pela maior parte do faturamento e o perfil dos clientes de maior valor (LTV). **(Ferramentas: Python, Pandas, Matplotlib)**
+- 📊 **[Análise de dados de uma empresa que presta um serviço de consultoria para pessoas que querem imigrar do Brasil para o Canadá.](https://github.com/AdrianoLink-DataScience/bibliotecas_visualizacao/blob/main/tratamento_e_visualiza%C3%A7%C3%A3o_de_dados.ipynb)**: Este projeto analisa dados de imigração para o Canadá entre 1980 e 2013. Ele usa a biblioteca Pandas para limpar e organizar os dados e, em seguida, compara três ferramentas de visualização (Matplotlib, Seaborn e Plotly) para criar gráficos estáticos e interativos. O foco principal da análise é a imigração vinda de países da América do Sul. **(Ferramentas: Python, Pandas, Matplotlib, Seaborn, Plotly, Jupyter Notebook)**
 - 📈 **[Dashboard de RH Interativo](https://github.com/AdrianoLink-DataScience/SEU-REPOSITORIO-DE-RH-AQUI)**: Dashboard interativo para analisar métricas de rotatividade (turnover), permitindo a identificação de departamentos críticos e padrões de saída de funcionários. **(Ferramentas: Power BI, DAX)**
 - 🗄️ **[Desafios de SQL](https://github.com/AdrianoLink-DataScience/SEU-REPOSITORIO-DE-SQL-AQUI)**: Soluções para desafios de SQL (nível médio a avançado), demonstrando proficiência em `JOINS`, `subqueries` e funções de janela. **(Ferramentas: SQL, PostgreSQL)**
 
