@@ -22,6 +22,7 @@
 | Ferramenta | Descrição |
 |---|---|
 | **Python** | Análise, limpeza e visualização de dados (Pandas, Matplotlib, Seaborn). |
+| **Web Scraping & Infra** | Extração de dados complexos, automação e roteamento anônimo (**Requests, BeautifulSoup, Tor Network, ProxyChains**). |
 | **SQL** | Consultas complexas, junções e manipulação de dados em bancos relacionais como **PostgreSQL** e **MySQL**. |
 | **Power BI** | Criação de dashboards interativos e relatórios a partir de diversas fontes, utilizando DAX para métricas. |
 | **Excel** | Análises avançadas, Tabelas Dinâmicas e automação de ETL com Power Query. |
@@ -36,8 +37,9 @@
 
 ### 🚀 Meus Projetos em Destaque
 
-- 📊 **[Análise de dados de uma empresa que presta um serviço de consultoria para pessoas que querem imigrar do Brasil para o Canadá.](https://github.com/AdrianoLink-DataScience/bibliotecas_visualizacao/blob/main/tratamento_e_visualiza%C3%A7%C3%A3o_de_dados.ipynb)**: Este projeto analisa dados de imigração para o Canadá entre 1980 e 2013. Ele usa a biblioteca Pandas para limpar e organizar os dados e, em seguida, compara três ferramentas de visualização (Matplotlib, Seaborn e Plotly) para criar gráficos estáticos e interativos. O foco principal da análise é a imigração vinda de países da América do Sul. **(Ferramentas: Python, Pandas, Matplotlib, Seaborn, Plotly, Jupyter Notebook)**
-- 📈 **[Análise Exploratória de Dados (EDA)](https://github.com/AdrianoLink-DataScience/cirurgias-df/blob/main/csv_cirurgias.ipynb)**: Análise de dados públicos de saúde (SIH/SUS) com foco em procedimentos cirúrgicos no DF. O projeto demonstra técnicas de manipulação de dados com Pandas e criação de gráficos de barras horizontais com Seaborn para comparar a demanda hospitalar e tipos de cirurgias. **(Python, Pandas, Matplotlib, Seaborn)**
+- 🕵️ **[HackerNews Stealth Scraper & Analyzer](https://github.com/AdrianoLink-DataScience/hackernews-stealth-scraper)**: Pipeline de Engenharia de Dados focado em privacidade (OpSec) e resiliência. Realiza extração anônima de dados roteando tráfego via rede **Tor** e proxies SOCKS5 para evitar bloqueios de IP e fingerprinting. Inclui limpeza automática (ETL) e análise de tendências. **(Ferramentas: Python, Requests+SOCKS, ProxyChains, Pandas, Matplotlib)**
+- 📊 **[Análise de dados de imigração (Brasil -> Canadá)](https://github.com/AdrianoLink-DataScience/bibliotecas_visualizacao/blob/main/tratamento_e_visualiza%C3%A7%C3%A3o_de_dados.ipynb)**: Este projeto analisa dados de imigração para o Canadá entre 1980 e 2013. Ele usa a biblioteca Pandas para limpar e organizar os dados e, em seguida, compara três ferramentas de visualização (Matplotlib, Seaborn e Plotly) para criar gráficos estáticos e interativos. O foco principal da análise é a imigração vinda de países da América do Sul. **(Ferramentas: Python, Pandas, Matplotlib, Seaborn, Plotly, Jupyter Notebook)**
+- 📈 **[Análise Exploratória de Dados (EDA) - Cirurgias DF](https://github.com/AdrianoLink-DataScience/cirurgias-df/blob/main/csv_cirurgias.ipynb)**: Análise de dados públicos de saúde (SIH/SUS) com foco em procedimentos cirúrgicos no DF. O projeto demonstra técnicas de manipulação de dados com Pandas e criação de gráficos de barras horizontais com Seaborn para comparar a demanda hospitalar e tipos de cirurgias. **(Python, Pandas, Matplotlib, Seaborn)**
 - 🗄️ **[E-commerce Data Simulator & Analytics](https://github.com/AdrianoLink-DataScience/E-commerce-Data-Simulator-Analytics/blob/main/E_commerce.ipynb)**: Este projeto simula um cenário real de varejo para análise de dados, focando em Engenharia de Dados, SQL Avançado e Storytelling. **(Ferramentas: Python 3.9+, SQLite (In-memory/File), Pandas, Seaborn, Faker, SQLAlchemy, Google Colab)**
 
 ---
