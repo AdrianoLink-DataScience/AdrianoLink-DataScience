@@ -14,6 +14,8 @@
 
 - 🎓 **Certificação em IA:** [Hugging Face: Explorando e aplicando soluções e modelos de IA](https://cursos.alura.com.br/certificate/adrianolink/hugging-face-explorando-aplicando-solucoes-modelos-ia) - *Alura*
 - 🤖 **[Projetos de IA no Hugging Face](https://adrianolink-datascience.github.io/Hugging-Face/)**: Aplicações e demonstrações de modelos de IA.
+- **Estatística (Enap):** Nota **93.19**. Foco em amostragem, probabilidade e medidas de dispersão.
+    - 🔗 [Validar Certificado](https://www.escolavirtual.gov.br) (Código: `Gpol176274977zQf`)
 ---
 
 
