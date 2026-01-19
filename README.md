@@ -1,6 +1,10 @@
 # Olá! 👋 Sou Adriano Link
 
-*Analista de Dados apaixonado por transformar dados brutos em insights estratégicos e acionáveis.*
+> *Analista de Dados apaixonado por transformar dados brutos em insights estratégicos e acionáveis.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adriano-link/)
+[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/AdrianoLink)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adrianolink.datascience@gmail.com)
 
 ---
 
@@ -10,16 +14,24 @@
 </p>
 
 ---
+
 ### 🌟 Destaques
 
 - 🎓 **Certificação em IA:** [Hugging Face: Explorando e aplicando soluções e modelos de IA](https://cursos.alura.com.br/certificate/adrianolink/hugging-face-explorando-aplicando-solucoes-modelos-ia) - *Alura*
 - 🤖 **[Projetos de IA no Hugging Face](https://adrianolink-datascience.github.io/Hugging-Face/)**: Aplicações e demonstrações de modelos de IA.
 - **Estatística (Enap):** Nota **93.19**. Foco em amostragem, probabilidade e medidas de dispersão.
     - 🔗 [Validar Certificado](https://www.escolavirtual.gov.br) (Código: `Gpol176274977zQf`)
+
 ---
 
-
 ### 🛠️ Minha Caixa de Ferramentas
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black)
+![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 | Ferramenta | Descrição |
 |---|---|
@@ -31,10 +43,11 @@
 | **Git & GitHub** | Versionamento de código e gerenciamento de projetos. |
 
 ---
+
 ### 🎓 Certificados e Cursos
 
 - **[Certificados e Cursos](https://cursos.alura.com.br/user/adrianolink/fullCertificate/ad2167a8dad680a69c3eb7d26250f2f2)** - *Alura*
-  
+
 ---
 
 ### 🚀 Meus Projetos em Destaque
@@ -46,15 +59,16 @@
 
 ---
 
-### 📫 Onde me Encontrar
-
-<a href="https://www.linkedin.com/in/adriano-link/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href="mailto:adrianolink.datascience@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.threads.com/@linkaddriano2024" target="_blank"><img src="https://img.shields.io/badge/-Threads-000000?style=for-the-badge&logo=threads&logoColor=white" target="_blank"></a>
+### 📫 Outras Redes
+<a href="https://www.threads.net/@linkaddriano2024" target="_blank"><img src="https://img.shields.io/badge/-Threads-000000?style=for-the-badge&logo=threads&logoColor=white" target="_blank"></a>
 <a href="https://huggingface.co/adrianoL" target="_blank"><img src="https://img.shields.io/badge/-Hugging%20Face-%23FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" target="_blank"></a>
 
 ---
 
-![Estatísticas do GitHub de AdrianoLink-DataScience](https://github-readme-stats.vercel.app/api?username=AdrianoLink-DataScience&show_icons=true&theme=dracula&include_all_commits=true&count_private=true)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AdrianoLink-DataScience&layout=compact&langs_count=7&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+<div align="center">
+  <h3>📊 GitHub Analytics</h3>
+  <a href="https://github.com/AdrianoLink-DataScience">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AdrianoLink-DataScience&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdrianoLink-DataScience&layout=compact&langs_count=7&theme=dracula"/>
+  </a>
+</div>
