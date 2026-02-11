@@ -1,6 +1,6 @@
 # Olá! 👋 Sou Adriano Link
 
-> *Analista de Dados apaixonado por transformar dados brutos em insights estratégicos e acionáveis.*
+> *Data Engineer | Python Automation Specialist | Web Scraping & Security Ops.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adriano-link/)
 [![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/AdrianoLink)
