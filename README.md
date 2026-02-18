@@ -56,11 +56,9 @@
 ### 📊 GitHub Analytics (Auto-updated)
 
 <div align="center">
-  <img src="./profile-summary-card-output/default/0-profile-details.svg" width="400px" />
   <img src="./profile-summary-card-output/default/1-repos-per-language.svg" width="400px" />
   <br />
   <img src="./profile-summary-card-output/default/2-most-commit-language.svg" width="400px" />
-  <img src="./profile-summary-card-output/default/3-stats.svg" width="400px" />
 </div>
 
 ---
