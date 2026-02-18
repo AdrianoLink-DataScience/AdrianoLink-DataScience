@@ -44,31 +44,34 @@
 
 ---
 
-### 🎓 Certificados e Cursos
-
-- **[Certificados e Cursos](https://cursos.alura.com.br/user/adrianolink/fullCertificate/ad2167a8dad680a69c3eb7d26250f2f2)** - *Alura*
-
----
-
 ### 🚀 Meus Projetos em Destaque
 
-- 🕵️ **[HackerNews Stealth Scraper & Analyzer](https://github.com/AdrianoLink-DataScience/hackernews-stealth-scraper)**: Pipeline de Engenharia de Dados focado em privacidade (OpSec) e resiliência. Realiza extração anônima de dados roteando tráfego via rede **Tor** e proxies SOCKS5 para evitar bloqueios de IP e fingerprinting. Inclui limpeza automática (ETL) e análise de tendências. **(Ferramentas: Python, Requests+SOCKS, ProxyChains, Pandas, Matplotlib)**
-- 📊 **[Análise de dados de imigração (Brasil -> Canadá)](https://github.com/AdrianoLink-DataScience/bibliotecas_visualizacao/blob/main/tratamento_e_visualiza%C3%A7%C3%A3o_de_dados.ipynb)**: Este projeto analisa dados de imigração para o Canadá entre 1980 e 2013. Ele usa a biblioteca Pandas para limpar e organizar os dados e, em seguida, compara três ferramentas de visualização (Matplotlib, Seaborn e Plotly) para criar gráficos estáticos e interativos. O foco principal da análise é a imigração vinda de países da América do Sul. **(Ferramentas: Python, Pandas, Matplotlib, Seaborn, Plotly, Jupyter Notebook)**
-- 📈 **[Análise Exploratória de Dados (EDA) - Cirurgias DF](https://github.com/AdrianoLink-DataScience/cirurgias-df/blob/main/csv_cirurgias.ipynb)**: Análise de dados públicos de saúde (SIH/SUS) com foco em procedimentos cirúrgicos no DF. O projeto demonstra técnicas de manipulação de dados com Pandas e criação de gráficos de barras horizontais com Seaborn para comparar a demanda hospitalar e tipos de cirurgias. **(Python, Pandas, Matplotlib, Seaborn)**
-- 🗄️ **[E-commerce Data Simulator & Analytics](https://github.com/AdrianoLink-DataScience/E-commerce-Data-Simulator-Analytics/blob/main/E_commerce.ipynb)**: Este projeto simula um cenário real de varejo para análise de dados, focando em Engenharia de Dados, SQL Avançado e Storytelling. **(Ferramentas: Python 3.9+, SQLite (In-memory/File), Pandas, Seaborn, Faker, SQLAlchemy, Google Colab)**
+- 🕵️ **[HackerNews Stealth Scraper & Analyzer](https://github.com/AdrianoLink-DataScience/hackernews-stealth-scraper)**: Pipeline de Engenharia de Dados focado em privacidade (OpSec) e resiliência via rede **Tor**.
+- 📊 **[Análise de dados de imigração (Brasil -> Canadá)](https://github.com/AdrianoLink-DataScience/bibliotecas_visualizacao/blob/main/tratamento_e_visualiza%C3%A7%C3%A3o_de_dados.ipynb)**: Estudo comparativo de visualização de dados entre 1980 e 2013 usando Pandas, Matplotlib e Seaborn.
+- 📈 **[Análise Exploratória de Dados (EDA) - Cirurgias DF](https://github.com/AdrianoLink-DataScience/cirurgias-df/blob/main/csv_cirurgias.ipynb)**: Análise de dados públicos de saúde (SIH/SUS) com foco em procedimentos cirúrgicos no Distrito Federal.
+- 🗄️ **[E-commerce Data Simulator & Analytics](https://github.com/AdrianoLink-DataScience/E-commerce-Data-Simulator-Analytics/blob/main/E_commerce.ipynb)**: Simulação de varejo real focada em Engenharia de Dados e SQL Avançado.
 
 ---
 
-### 📫 Outras Redes
-<a href="https://www.threads.net/@linkaddriano2024" target="_blank"><img src="https://img.shields.io/badge/-Threads-000000?style=for-the-badge&logo=threads&logoColor=white" target="_blank"></a>
-<a href="https://huggingface.co/adrianoL" target="_blank"><img src="https://img.shields.io/badge/-Hugging%20Face-%23FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" target="_blank"></a>
-
----
+### 📊 GitHub Analytics (Auto-updated)
 
 <div align="center">
-  <h3>📊 GitHub Analytics</h3>
-  <a href="https://github.com/AdrianoLink-DataScience">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AdrianoLink-DataScience&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdrianoLink-DataScience&layout=compact&langs_count=7&theme=dracula"/>
-  </a>
+  <table border="0">
+    <tr>
+      <td><img src="./profile-summary-card-output/dracula/0-profile-details.svg" width="400px"></td>
+      <td><img src="./profile-summary-card-output/dracula/1-repos-per-language.svg" width="400px"></td>
+    </tr>
+    <tr>
+      <td><img src="./profile-summary-card-output/dracula/2-most-commit-language.svg" width="400px"></td>
+      <td><img src="./profile-summary-card-output/dracula/3-stats.svg" width="400px"></td>
+    </tr>
+  </table>
 </div>
+
+---
+
+### 📫 Conecte-se Comigo
+<p align="left">
+<a href="https://huggingface.co/adrianoL" target="_blank"><img src="https://img.shields.io/badge/-Hugging%20Face-%23FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"></a>
+<a href="https://www.threads.net/@linkaddriano2024" target="_blank"><img src="https://img.shields.io/badge/-Threads-000000?style=for-the-badge&logo=threads&logoColor=white"></a>
+</p>
