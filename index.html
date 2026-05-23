@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molhes da Barra - Arte em Código</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        .canvas-container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            aspect-ratio: 16/9;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+            border: 2px solid #333;
+            border-radius: 4px;
+            overflow: hidden;
+            background: linear-gradient(to bottom, #87CEEB 0%, #E0F6FF 45%, #2B65EC 50%, #003366 100%);
+        }
+        svg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        /* Animações Criativas */
+        @keyframes mar {
+            0% { transform: translateX(0) scaleY(1); }
+            50% { transform: translateX(-10px) scaleY(1.02); }
+            100% { transform: translateX(0) scaleY(1); }
+        }
+        @keyframes farolFeixe {
+            0% { opacity: 0.1; transform: rotate(0deg); }
+            50% { opacity: 0.6; transform: rotate(15deg); }
+            100% { opacity: 0.1; transform: rotate(0deg); }
+        }
+        @keyframes vooPassaro {
+            0% { transform: translate(1200px, 100px) scale(0.5); }
+            100% { transform: translate(-100px, 50px) scale(1); }
+        }
+        @keyframes nuvemMove {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+        .ondas { animation: mar 8s ease-in-out infinite; }
+        .luz-farol { 
+            animation: farolFeixe 6s ease-in-out infinite alternate;
+            transform-origin: 300px 420px;
+        }
+        .passaro { animation: vooPassaro 20s linear infinite; }
+        .passaro:nth-child(2) { animation-delay: -5s; animation-duration: 25s; }
+        .passaro:nth-child(3) { animation-delay: -12s; animation-duration: 18s; }
+        .nuvem { animation: nuvemMove 60s linear infinite; opacity: 0.7; }
+        .nuvem2 { animation: nuvemMove 80s linear infinite; opacity: 0.5; animation-delay: -30s; }
+    </style>
+</head>
+<body>
+
+<div class="canvas-container">
+    <svg viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        
+        <defs>
+            <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#4A90E2" />
+                <stop offset="100%" stop-color="#A0C8F0" />
+            </linearGradient>
+            
+            <linearGradient id="marGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1A4A5C" />
+                <stop offset="40%" stop-color="#226B7D" />
+                <stop offset="100%" stop-color="#3A8A96" />
+            </linearGradient>
+
+            <linearGradient id="pisoMolhe" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#A9A9A9" />
+                <stop offset="100%" stop-color="#696969" />
+            </linearGradient>
+
+            <filter id="texturaPedra">
+                <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise" />
+                <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.3 0" in="noise" result="coloredNoise" />
+                <feComposite operator="in" in="coloredNoise" in2="SourceGraphic" result="composite" />
+                <feBlend mode="multiply" in="composite" in2="SourceGraphic" />
+            </filter>
+        </defs>
+
+        <rect width="1200" height="350" fill="url(#ceu)" />
+
+        <g fill="#FFF" class="nuvem">
+            <path d="M 800 100 Q 820 80 850 100 Q 880 90 900 110 Q 920 100 930 120 L 800 120 Z" />
+            <path d="M 300 150 Q 330 130 360 150 Q 390 140 400 160 L 300 160 Z" />
+        </g>
+        <g fill="#FFF" class="nuvem2">
+            <path d="M 500 80 Q 530 60 560 80 Q 590 70 610 90 L 500 90 Z" />
+        </g>
+
+        <path d="M 0 350 L 0 250 Q 100 200 250 260 Q 350 200 500 280 Q 600 250 750 280 Q 850 220 1000 290 Q 1100 260 1200 300 L 1200 350 Z" fill="#1b3b27" />
+        <path d="M 0 350 L 0 270 Q 150 230 300 290 Q 400 230 550 300 Q 700 270 800 310 Q 950 260 1200 320 L 1200 350 Z" fill="#2d523b" opacity="0.8"/>
+        
+        <g fill="#88929e" opacity="0.6">
+            <rect x="900" y="310" width="15" height="40" />
+            <rect x="920" y="320" width="12" height="30" />
+            <rect x="940" y="295" width="18" height="55" />
+            <rect x="970" y="305" width="20" height="45" />
+            <rect x="1005" y="280" width="15" height="70" />
+            <rect x="1030" y="315" width="25" height="35" />
+        </g>
+
+        <rect class="ondas" x="-50" y="350" width="1300" height="350" fill="url(#marGrad)" />
+        
+        <g class="ondas" stroke="#FFF" stroke-width="1.5" opacity="0.2" fill="none">
+            <path d="M 100 400 Q 150 390 200 400 T 300 400 T 400 400" />
+            <path d="M 400 450 Q 450 440 500 450 T 600 450 T 700 450" />
+            <path d="M 800 500 Q 850 480 900 500 T 1000 500 T 1100 500" />
+            <path d="M 200 550 Q 250 530 300 550 T 400 550 T 500 550" />
+            <path d="M 600 600 Q 700 580 800 600 T 1000 600 T 1200 600" />
+        </g>
+
+        <polygon points="180,480 320,440 1200,675 700,675" fill="#111" opacity="0.6" />
+        
+        <g filter="url(#texturaPedra)">
+            <polygon points="200,460 300,430 1200,560 1200,675" fill="#222" />
+            <polygon points="270,470 340,450 1200,675 900,675" fill="#1a1a1a" />
+        </g>
+
+        <g fill="#333" stroke="#111" stroke-width="1.5">
+            <circle cx="210" cy="460" r="12" />
+            <circle cx="230" cy="475" r="15" />
+            <polygon points="200,450 215,440 225,460 210,470" />
+            <circle cx="250" cy="490" r="18" />
+            <polygon points="280,510 300,490 320,520 290,530" />
+            <circle cx="330" cy="540" r="22" />
+            <polygon points="360,560 390,540 410,580 370,590" />
+            <circle cx="450" cy="620" r="30" />
+            <polygon points="500,640 540,610 580,660 520,680" />
+            <circle cx="650" cy="675" r="40" />
+
+            <circle cx="320" cy="435" r="10" />
+            <polygon points="340,445 355,435 365,450 350,455" />
+            <circle cx="380" cy="455" r="12" />
+            <polygon points="420,470 440,455 460,480 430,485" />
+            <circle cx="500" cy="490" r="15" />
+            <polygon points="580,520 610,500 630,535 590,545" />
+            <circle cx="700" cy="560" r="22" />
+            <polygon points="820,600 860,570 890,620 830,630" />
+            <circle cx="1000" cy="650" r="35" />
+        </g>
+
+        <polygon points="230,455 310,442 1200,650 1000,675" fill="url(#pisoMolhe)" />
+        
+        <path d="M 280 460 L 300 455" stroke="#555" stroke-width="1" />
+        <path d="M 400 500 L 450 490" stroke="#555" stroke-width="1.5" />
+        <path d="M 600 560 L 680 545" stroke="#555" stroke-width="2" />
+        <path d="M 900 630 L 1000 610" stroke="#555" stroke-width="3" />
+
+        <g fill="#222" opacity="0.8">
+            <rect x="250" y="445" width="2" height="6" />
+            <rect x="255" y="446" width="1.5" height="5" />
+            <rect x="350" y="465" width="3" height="10" />
+            <rect x="355" y="466" width="2.5" height="9" />
+            <circle cx="480" cy="505" r="3" />
+            <rect x="478" y="495" width="4" height="12" />
+            <path d="M 475 505 L 485 505" stroke="#222" stroke-width="1" />
+            <rect x="700" y="550" width="6" height="20" />
+            <circle cx="703" cy="546" r="3" />
+            <rect x="730" y="540" width="5" height="18" />
+            <circle cx="732.5" cy="537" r="2.5" />
+        </g>
+
+        <g id="farol">
+            <ellipse cx="270" cy="450" rx="30" ry="8" fill="#111" opacity="0.5" />
+            
+            <ellipse cx="270" cy="450" rx="35" ry="10" fill="#EAEAEA" />
+            <rect x="235" y="440" width="70" height="10" fill="#CCC" />
+            <ellipse cx="270" cy="440" rx="35" ry="10" fill="#999" />
+            
+            <path d="M 245 440 L 250 360 L 290 360 L 295 440 Z" fill="#FFF" />
+            
+            <path d="M 246 420 L 248 395 L 292 395 L 294 420 Z" fill="#1A5C38" />
+            
+            <path d="M 249 375 L 250 360 L 290 360 L 291 375 Z" fill="#1A5C38" />
+            
+            <text x="270" y="415" font-family="Arial, sans-serif" font-weight="900" font-size="18" fill="#111" text-anchor="middle">8</text>
+
+            <rect x="255" y="340" width="30" height="20" fill="#A8D5E2" opacity="0.8" stroke="#111" stroke-width="1"/>
+            <path d="M 252 340 L 260 330 L 280 330 L 288 340 Z" fill="#1A5C38" />
+            <circle cx="270" cy="328" r="3" fill="#FFF" /> <circle cx="270" cy="350" r="6" fill="#FFF" />
+            <circle cx="270" cy="350" r="10" fill="#FFFF00" opacity="0.6" filter="blur(2px)"/>
+        </g>
+
+        <polygon class="luz-farol" points="270,350 1200,100 1200,600" fill="url(#ceu)" opacity="0.2" style="mix-blend-mode: screen;" />
+
+        <g stroke="#111" stroke-width="2" fill="none" stroke-linecap="round">
+            <path class="passaro" d="M 0 0 Q 10 -10 20 0 Q 30 -10 40 0 Q 20 10 0 0" />
+            <path class="passaro" d="M 0 0 Q 8 -8 16 0 Q 24 -8 32 0 Q 16 8 0 0" />
+            <path class="passaro" d="M 0 0 Q 12 -12 24 0 Q 36 -12 48 0 Q 24 12 0 0" />
+        </g>
+
+        <rect width="1200" height="675" fill="none" stroke="#000" stroke-width="10" opacity="0.3" />
+    </svg>
+</div>
+
+</body>
+</html>
